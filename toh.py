@@ -1,4 +1,4 @@
-# Recursive Python function to solve the tower of hanoi
+# Use recursion to solve the tower of hanoi mathematical problem, in python
 
 def TowerOfHanoi(n , source, destination, auxiliary):
 	if n==1:
@@ -8,8 +8,8 @@ def TowerOfHanoi(n , source, destination, auxiliary):
 	print ("Move disk",n,"from ",source,"to ",destination)
 	TowerOfHanoi(n-1, auxiliary, destination, source)
 		
-# Driver code
+# Driver code: basically int main but in python
 n = 3
 TowerOfHanoi(n,'A','B','C') 
-# A, C, B are the name of rods
+# A, C, B are the name of rods, for the disks to be placed on
 
