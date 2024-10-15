@@ -3,9 +3,9 @@
 void sorter(int *a,int n)
 {
     for(int i=0;i<n;i++)
-    {
+    {//sorting
         for(int j=0;j<n-i;j++)
-        {
+        {//wow
             if(*(a+j)>*(a+j+1))
             {
                 // *(a+j)=(*(a+j))^(*(a+j+1));
@@ -15,7 +15,7 @@ void sorter(int *a,int n)
                 *(a+j)=*(a+j+1);
                 *(a+j+1)=t;
             }
-        }
+        }//so cool
     }
 }
 int main(void)
